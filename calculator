@@ -1,0 +1,18 @@
+import math
+def calc(n):
+    s=0;
+    p=1;
+    num = int(input('Enter 1st Number:'));
+    num1 = int(input('ENter 2nd number:'))
+    if(n==1):
+        s=num+num1;
+        print('Sum is:',s);
+    elif(n==2):
+        p=num*num1;
+        print('Product is:',p);
+    else:
+        d=num/num1;
+        print('Division is:',d);
+
+i=int(input('select: 1.Sum 2.Multiply 3.Division:'));
+calc(i);
